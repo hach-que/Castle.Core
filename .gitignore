@@ -1,5 +1,4 @@
 
-/build
 AssemblyInfo.cs
 
 # Standard VS.NET and ReSharper Foo
@@ -15,3 +14,7 @@ _ReSharper*
 
 *.orig
 *~
+*.sln
+*.csproj
+*.speccache
+*.userprefs

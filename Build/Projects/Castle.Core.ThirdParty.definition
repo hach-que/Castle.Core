@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalProject Name="Castle.Core.ThirdParty">
+  <Platform Type="Windows">
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+  </Platform>
+</ExternalProject>
