@@ -32,7 +32,7 @@ namespace Castle.DynamicProxy.Generators
 	using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
 	using Castle.DynamicProxy.Internal;
 
-#if SILVERLIGHT
+#if SILVERLIGHT && !MOBILE
 	using Castle.DynamicProxy.SilverlightExtensions;
 #endif
 

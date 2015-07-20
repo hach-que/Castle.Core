@@ -19,7 +19,7 @@ namespace Castle.Core.Extensions
 	using System.ComponentModel;
 	using System.Globalization;
 
-#if SILVERLIGHT
+#if SILVERLIGHT && !MOBILE
 
 	public class SimpleConverter : TypeConverter
 	{

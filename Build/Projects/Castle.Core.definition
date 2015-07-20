@@ -2,13 +2,13 @@
 <Project Name="Castle.Core" Path="src\Castle.Core" Type="Library">
   <Properties>
     <CustomDefinitions>
-      <Platform Name="Android">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;</Platform>
-      <Platform Name="Ouya">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;</Platform>
-      <Platform Name="iOS">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;</Platform>
+      <Platform Name="Android">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;MOBILE;</Platform>
+      <Platform Name="Ouya">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;MOBILE;</Platform>
+      <Platform Name="iOS">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;MOBILE;</Platform>
       <Platform Name="Windows">TRACE;PHYSICALASSEMBLY;DOTNET;DOTNET40;CLIENTPROFILE;</Platform>
-      <Platform Name="MacOS">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;</Platform>
-      <Platform Name="Linux">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;</Platform>
-      <Platform Name="Web">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;</Platform>
+      <Platform Name="MacOS">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;MOBILE;</Platform>
+      <Platform Name="Linux">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;MOBILE;</Platform>
+      <Platform Name="Web">TRACE;PHYSICALASSEMBLY;MONO;MONO26;SILVERLIGHT;MOBILE;</Platform>
     </CustomDefinitions>
   </Properties>
   <References>
